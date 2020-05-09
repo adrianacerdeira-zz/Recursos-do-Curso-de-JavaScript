@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulário de CPF</title>
+    <style>
+      input{
+        margin:0.5em;
+        font-size:1.5em;
+      }
+      form{
+        padding:2em;
+      }
+      #alertaCPF, #alertaNome{
+        background-color: red;
+        color:white;
+        font-size: 1.5em;
+        font-weight: bold;
+
+      }
+
+    </style>
+  </head>
+  <body>
+    <form class="" action="index.html" method="get">
+
+      <input type="text" name="nome" id="nome" placeholder="Nome" maxlength="150">
+      <span id="alertaNome"></span>
+      <br>
+
+      <input type="number" name="cpf" id="cpf" placeholder="CPF" maxlength="9">
+      <span id="alertaCPF"></span>
+      <br>
+      <input type="submit" name="submit" id="submit">
+
+    </form>
+
+    <script type="text/javascript" src="js.js">
+
+    </script>
+  </body>
+</html>

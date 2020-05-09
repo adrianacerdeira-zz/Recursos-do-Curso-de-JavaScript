@@ -1,0 +1,90 @@
+body {
+    background: #D7C1E8;
+    font-family: 'Ma Shan Zheng', cursive;
+}
+
+main {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    justify-items: stretch;
+    align-items: stretch;
+    box-shadow: 10px 0px 10px rgba(51, 51, 51, 0.5), -10px 0px 10px rgba(51, 51, 51, 0.5);
+    background: black;
+
+}
+
+.celulas {
+    border: 5px solid black;
+    background: white;
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    width: 100%;
+    height: 100%;
+}
+
+#alerta {
+    background-color: red;
+    color: white;
+    font-size: 1.5em;
+    line-height: 2.5em;
+}
+
+#jogadores {
+    font-size: 2.0rem;
+    text-align: center;
+
+}
+
+.check {
+    background-image: url('imagens/check.png');
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.x {
+    background-image: url('imagens/x.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.novo-jogo {
+    margin-top: 2em;
+    padding-top: 1em;
+    width: 100%;
+    background-color: green;
+    text-align: center;
+}
+
+a#novo-jogo {
+    width: 100%;
+    font-size: 1.5em;
+    line-height: 2.5em;
+    color: white;
+    text-decoration: none;
+
+}
+
+.nome-jogador {
+    color: white;
+
+}
+
+button:hover {
+    cursor: pointer;
+}
+
