@@ -12,14 +12,14 @@
 /**uerySelectorAll**/
 /*console.log('XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX');*/
 /*var porTag = document.querySelectorAll('li');
-var porClasses = document.querySelectorAll('.testandoQuery');
-var porID = document.querySelectorAll('#citacao');
-console.log('Por tag:');
-console.log(porTag);
-console.log('Por classe:');
-console.log(porClasses);
-console.log('Por id:');
-console.log(porID);*/
+ var porClasses = document.querySelectorAll('.testandoQuery');
+ var porID = document.querySelectorAll('#citacao');
+ console.log('Por tag:');
+ console.log(porTag);
+ console.log('Por classe:');
+ console.log(porClasses);
+ console.log('Por id:');
+ console.log(porID);*/
 
 /**Get Elements**/
 var porID = document.getElementById('citacao');
@@ -45,28 +45,28 @@ var imagem = document.getElementById('teclado');
 
 /*imagem.addEventListener('click', function (){
 
-	 var elemento = document.getElementById('citacao');
-	 var legenda = document.getElementById('texto_legenda');
+ var elemento = document.getElementById('citacao');
+ var legenda = document.getElementById('texto_legenda');
 
-	 if(elemento.style.backgroundColor !== "red"){
-	  elemento.style.backgroundColor = "red";
-	} else {
-		elemento.style.backgroundColor = "antiquewhite";
-	}
-	if(legenda.innerHTML == 'Cliquei na imagem'){
+ if(elemento.style.backgroundColor !== "red"){
+ elemento.style.backgroundColor = "red";
+ } else {
+ elemento.style.backgroundColor = "antiquewhite";
+ }
+ if(legenda.innerHTML == 'Cliquei na imagem'){
 
-		legenda.innerHTML = 'Notas naturais, sustenidos e bemóis no teclado';
-		legenda.style.color = 'black';
+ legenda.innerHTML = 'Notas naturais, sustenidos e bemóis no teclado';
+ legenda.style.color = 'black';
 
-	} else {
-		legenda.innerHTML = 'Cliquei na imagem';
-		legenda.style.color = 'white';
-	}
+ } else {
+ legenda.innerHTML = 'Cliquei na imagem';
+ legenda.style.color = 'white';
+ }
 
 
 
-});
-*/
+ });
+ */
 
 //imagem.addEventListener('click', trocarTextoECor());
 imagem.addEventListener('click', trocarTextoECor);
@@ -79,28 +79,25 @@ imagem.addEventListener('click', trocarTextoECor);
 //imagem.onclick(trocarTextoECor());
 
 
+function trocarTextoECor() {
 
+    var elemento = document.getElementById('citacao');
+    var legenda = document.getElementById('texto_legenda');
 
-function trocarTextoECor(){
+    if (elemento.style.backgroundColor !== "red") {
+        elemento.style.backgroundColor = "red";
+    } else {
+        elemento.style.backgroundColor = "antiquewhite";
+    }
+    if (legenda.innerHTML == 'Cliquei na imagem') {
+        /**Setter**/
+        legenda.innerHTML = 'Notas naturais, sustenidos e bemóis no teclado';
+        legenda.style.color = 'black';
 
-	 var elemento = document.getElementById('citacao');
-	 var legenda = document.getElementById('texto_legenda');
-
-	 if(elemento.style.backgroundColor !== "red"){
-	  elemento.style.backgroundColor = "red";
-	} else {
-		elemento.style.backgroundColor = "antiquewhite";
-	}
-	if(legenda.innerHTML == 'Cliquei na imagem'){
-		/**Setter**/
-		legenda.innerHTML = 'Notas naturais, sustenidos e bemóis no teclado';
-		legenda.style.color = 'black';
-
-	} else {
-		legenda.innerHTML = 'Cliquei na imagem';
-		legenda.style.color = 'white';
-	}
-
+    } else {
+        legenda.innerHTML = 'Cliquei na imagem';
+        legenda.style.color = 'white';
+    }
 
 
 }

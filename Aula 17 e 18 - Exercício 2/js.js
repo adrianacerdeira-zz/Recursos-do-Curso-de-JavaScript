@@ -1,37 +1,37 @@
 //Primeiro eu crio a função que vai conter todo o processo de raciocínio
-function possoBebereAbrirConta(){
-	//Vou descobrir a data de hoje com o objeto Date, não se preocupe com ele, você pode ter colocado a data na mão como var ano = 2020;
-	var data = new Date();
-	var ano = data.getFullYear();
+function possoBebereAbrirConta() {
+    //Vou descobrir a data de hoje com o objeto Date, não se preocupe com ele, você pode ter colocado a data na mão como var ano = 2020;
+    var data = new Date();
+    var ano = data.getFullYear();
 
-	//Criando variáveis sem atribuir valor
+    //Criando variáveis sem atribuir valor
 
-  var nome, anoNascimento;
-
-
-	//Pedindo info
-	nome = prompt("Qual o seu nome?");
-  anoNascimento = prompt("Em que ano você nasceu?");
+    var nome, anoNascimento;
 
 
-	//Descobrindo a idade
-	var idade = ano - anoNascimento;
+    //Pedindo info
+    nome = prompt("Qual o seu nome?");
+    anoNascimento = prompt("Em que ano você nasceu?");
 
-	//Verificando se deu tudo certo
-	console.log(nome);
-	console.log(anoNascimento);
-	console.log(idade);
 
-	//Descobrindo o que é para acontecer
-	//Descobrindo o que é para acontecer
-	if (idade >= 21) {
-		return "Estamos em " + ano + ". Então, parabéns " + nome + ", você pode beber e abrir conta no banco.";
+    //Descobrindo a idade
+    var idade = ano - anoNascimento;
 
-	} else if (idade >= 18 && idade < 21) {
-		return "Estamos em " + ano + ". Então, parabéns " + nome + ", você pode beber porém não pode abrir conta no banco.";
-	} else{
-		return "Estamos em " + ano + ". Então, que pena " + nome + ", você não pode nem beber, nem abrir conta no banco.";
-	}
+    //Verificando se deu tudo certo
+    console.log(nome);
+    console.log(anoNascimento);
+    console.log(idade);
+
+    //Descobrindo o que é para acontecer
+    //Descobrindo o que é para acontecer
+    if (idade >= 21) {
+        return "Estamos em " + ano + ". Então, parabéns " + nome + ", você pode beber e abrir conta no banco.";
+
+    } else if (idade >= 18 && idade < 21) {
+        return "Estamos em " + ano + ". Então, parabéns " + nome + ", você pode beber porém não pode abrir conta no banco.";
+    } else {
+        return "Estamos em " + ano + ". Então, que pena " + nome + ", você não pode nem beber, nem abrir conta no banco.";
+    }
 
 
 }

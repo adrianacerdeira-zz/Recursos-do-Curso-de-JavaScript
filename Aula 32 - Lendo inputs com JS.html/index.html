@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description"
+          content="Aqui vai a descrição do seu site ou página para o Google poder ver e colocar no sumário no resultado das buscas.">
+    <meta name="keywords" content="Aqui vão as palavras chaves separadas por vírgula">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+<main>
+    <section id="botoes">
+        <img src="http://adrianacerdeira.info/estrela20.png" id="imagem">
+        <br>
+        <button id="botaoAttr">Adicionar Atributos</button>
+        <br>
+        <p>O que eu acabei de colocar no meu Input é:</p>
+        <div id="conteudo_form">
+
+        </div>
+    </section>
+    <form action="#" method="GET" name="formulario_simples_nome" id="formulario_simples">
+
+        <legend>Dados de contato</legend>
+        <br>
+        <label for="nome">Nome</label>
+        <br>
+        <input type="text" maxlength="140" minlength="5" name="caixaDeTexto" placeholder="Nome" id="nome"
+               spellcheck="false">
+        <div id="alertaTexto" class="aviso"></div>
+
+
+        <br>
+        <label for="range">Intervalo</label>
+        <br>
+        <input type="range" id="range" name="range" min="2" max="100" step="2">
+        <div id="alertaIntervalo" class="aviso"></div>
+        <br>
+
+        <input type="submit" name="submit" value="Submeter" id="submit">
+    </form>
+
+</main>
+
+
+<script type="text/javascript" src="js2.js"></script>
+</body>
+</html>

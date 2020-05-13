@@ -24,17 +24,17 @@ console.log(anoNascimento);
 console.log(idade);
 
 //Preparando mensagens de alerta
-var maiorDe21 = "Estamos em " + ano + ". Então, parabéns "  + nome + ", você pode beber e abrir conta no banco.";
-var maiorDe18 = "Estamos em " + ano + ". Então, parabéns "  + nome + ", você pode beber porém não pode abrir conta no banco.";
+var maiorDe21 = "Estamos em " + ano + ". Então, parabéns " + nome + ", você pode beber e abrir conta no banco.";
+var maiorDe18 = "Estamos em " + ano + ". Então, parabéns " + nome + ", você pode beber porém não pode abrir conta no banco.";
 var menorDe18 = "Estamos em " + ano + ". Então, que pena " + nome + ", você não pode nem beber, nem abrir conta no banco.";
 
 //Descobrindo o que é para acontecer
 
 if (idade >= segundaMaioridade) {
-	alert(maiorDe21);
+    alert(maiorDe21);
 
 } else if (idade >= primeiraMaioridade && idade < segundaMaioridade) {
-	alert(maiorDe18);
-} else{
-	alert(menorDe18);
+    alert(maiorDe18);
+} else {
+    alert(menorDe18);
 }

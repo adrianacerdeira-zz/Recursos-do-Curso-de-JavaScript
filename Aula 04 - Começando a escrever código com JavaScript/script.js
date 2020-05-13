@@ -10,8 +10,8 @@ console.log(minhaPrimeiraVariavel + nome);
 //ES6
 let idade;
 idade = 36;
-const sobrenome ='Cerdeira';
-console.log(idade,sobrenome);
+const sobrenome = 'Cerdeira';
+console.log(idade, sobrenome);
 idade = 20;
 
-console.log(idade,sobrenome);
+console.log(idade, sobrenome);
