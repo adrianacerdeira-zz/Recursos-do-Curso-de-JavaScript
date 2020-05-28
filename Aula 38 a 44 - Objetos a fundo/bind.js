@@ -97,6 +97,6 @@ console.log(idades);
 console.log(maiores);
 //
 //
-// //Vamos usar o bind para pre-estabeler o limite. Como neste caso não nos importamos com o this keyword colocamos this para o primeiro argumento porque o argumento estabelecendo qual será o this sempre tem que ir. Depois colocamos como segundo argumento o limite.
+// //Vamos usar o bind para pre-estabelecer o limite. Como neste caso não nos importamos com o this keyword colocamos this para o primeiro argumento porque o argumento estabelecendo qual será o this sempre tem que ir. Depois colocamos como segundo argumento o limite.
 var maioridadeBrasil = calcularArray(idades, maiorDeIdade2.bind(this, 21));
 console.log(maioridadeBrasil);

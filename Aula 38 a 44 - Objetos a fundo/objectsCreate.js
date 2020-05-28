@@ -31,7 +31,7 @@ console.log(paula);
 console.log(adriana);
 
 //
-// //Usando os paramêtros aceitos pelo método Object.create, o objeto a ser usado como base e um objeto com as propriedades e parametros que queremos adicionar
+// //Usando os parâmetros aceitos pelo método Object.create, o objeto a ser usado como base e um objeto com as propriedades e parametros que queremos adicionar
 var marcia = Object.create(adriana, {
     nome: {value: 'Marcia'},
     profissao: {value: 'Psicóloga'},

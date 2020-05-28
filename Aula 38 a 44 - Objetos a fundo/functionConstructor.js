@@ -9,7 +9,7 @@ var Pessoa = function (nome, anodeNascimento, profissao) {
     };
 };
 
-//Instânciando
+//Instanciando
 var adriana = new Pessoa('Adriana', 1978, 'Web Dev');
 var paula = new Pessoa('Paula', 1985, 'Engenheira');
 var marcia = adriana;
@@ -26,6 +26,6 @@ Pessoa.prototype.maiorDeIdade = function () {
     }
 };
 
-//Demonstrando que todos os objetos herdaram independente de ter sido instânciado antes de ter sido adicionado o método
+//Demonstrando que todos os objetos herdaram independente de ter sido instanciado antes de ter sido adicionado o método
 
 console.log(adriana.maiorDeIdade());

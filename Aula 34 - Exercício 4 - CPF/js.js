@@ -155,7 +155,7 @@ function meusAlertas() {
     }
 }
 
-//Events listeners para a açãoptimizenome.addEventListener('blur', validarNome);
+//Events listeners para a ação  addEventListener('blur', validarNome);
 nome.addEventListener('blur', validarNome);
 cpf.addEventListener('blur', validarCPF);
 submeter.addEventListener('click', validarForm);

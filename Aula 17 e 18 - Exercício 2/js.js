@@ -42,6 +42,6 @@ function possoBebereAbrirConta() {
 alert(possoBebereAbrirConta());
 
 
-//Como eu coloquei todo o raciciocínio, inclusive o pedido de informação ali na função eu posso fazer outras coisas aqui. Posso vir aqui e facilmente pedir todo o processo varias vezes mas veja o que acontece se o que eu gostaria de fazer é somente dar um console.log daquele resultado depois:
+//Como eu coloquei todo o raciocínio, inclusive o pedido de informação ali na função eu posso fazer outras coisas aqui. Posso vir aqui e facilmente pedir todo o processo varias vezes mas veja o que acontece se o que eu gostaria de fazer é somente dar um console.log daquele resultado depois:
 // Descomente para testar // console.log(possoBebereAbrirConta());
 //O que ocorrerá é que ele vai me pedir o prompt de novo. Então dá uma olhada no index2 que está com o js2 onde fiz o mesmo código com uma pequena diferença.

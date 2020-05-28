@@ -221,7 +221,7 @@ jogador2.nome = prompt('Nome do(a) segundo(a) Jogador(a):');
 //Variavel que vai temporariamente guardar a posição escolhida
 var novaPos;
 //Variavel que vai definir se o jogo continua
-var jogoContinua = true; //Isto é uma chamada State Variable ou Variável de Estado que em programação é muito usada para se definir o estado de um sistema. Então neste caso está falndo se o Jogo deve continuar ou não. QUando este valor mudar, muda o estado do sistema para que o jogo não deve continuar
+var jogoContinua = true; //Isto é uma chamada State Variable ou Variável de Estado que em programação é muito usada para se definir o estado de um sistema. Então neste caso está falando se o Jogo deve continuar ou não. Quando este valor mudar, muda o estado do sistema para que o jogo não deve continuar
 var jogadorAtual = jogador1;
 
 
