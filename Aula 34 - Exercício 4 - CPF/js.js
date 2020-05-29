@@ -45,7 +45,7 @@ function calcCPF(valor) {
     if (restanteSomaDiv2 < 2) {
         ultDig = 0;
     } else {
-        ultDig = 11 - restanteSomaDiv;
+        ultDig = 11 - restanteSomaDiv2;
     }
 
 
